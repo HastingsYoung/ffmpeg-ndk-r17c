@@ -7,8 +7,7 @@ This is a working repository of ffmpeg android build which contains armeabi-v7a 
 
 1. Download `android-ndk-r17c` for `linux` or `darwin` and place it under path `$NDK`, e.g. `/home/ubuntu/android-ndk-r17c`
 2. Modify `build.sh` script, change `NDK=/home/ubuntu/android-ndk-r17c` to the path you just specified.
-3. Modify `--arch=armeabi-v7a` & `CPU=armeabi-v7a` to the architecture you need.
-4. Run `bash build.sh` and wait for 5-10 mins and you're all set.
+3. Run `bash build_armeabi-v7a`/`bash build_armv8-a.sh` and wait for 5-10 mins and you're all set.
 
 FFmpeg README
 =============
