@@ -1,7 +1,7 @@
 #!/bin/bash  
 set -x
 NDK=/home/ubuntu/android-ndk-r17c
-SYSROOT=$NDK/platforms/android-23/arch-arm/
+SYSROOT=$NDK/platforms/android-23/arch-arm64/
 TOOLCHAIN=$NDK/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64
 
 function build_one
