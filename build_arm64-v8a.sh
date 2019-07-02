@@ -39,7 +39,6 @@ echo "-------- Build Started -------"
 --enable-asm \
 --disable-static \
 --disable-doc \
---enable-ffmpeg \
 --enable-protocol='file,pipe' \
 --enable-demuxer='aac,avi,dnxhd,flac,flv,gif,h261,h263,h264,image2,matroska,webm,mov,mp3,mp4,mpeg,ogg,srt,wav,webvtt,gif,image2,image2pipe,mjpeg' \
 --enable-muxer='3gp,dnxhd,flac,flv,gif,image2,matroska,webm,mov,mp3,mp4,mpeg,ogg,opus,srt,wav,webvtt,ipod,gif,image2,image2pipe,mjpeg' \
@@ -53,8 +52,8 @@ echo "-------- Build Started -------"
 --disable-avdevice \
 --enable-small \
 echo "-------- Build Ended -------"
-make clean
-make
-make install
+# make clean
+# make
+# make install
 }
 build_one
