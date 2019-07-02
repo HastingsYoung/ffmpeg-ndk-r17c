@@ -52,8 +52,8 @@ echo "-------- Build Started -------"
 --disable-avdevice \
 --enable-small
 echo "-------- Build Ended -------"
-# make clean
-# make
-# make install
+make clean
+make
+make install
 }
 build_one
