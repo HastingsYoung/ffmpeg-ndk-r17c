@@ -50,7 +50,7 @@ echo "-------- Build Started -------"
 --disable-ffprobe \
 --disable-symver \
 --disable-avdevice \
---enable-small \
+--enable-small
 echo "-------- Build Ended -------"
 # make clean
 # make
