@@ -16,6 +16,7 @@ function build_one
 --disable-ffprobe \
 --disable-avdevice \
 --disable-symver \
+--cc=$TOOLCHAIN/bin/aarch64-linux-android-gcc-4.9 \
 --cross-prefix=$TOOLCHAIN/bin/aarch64-linux-android- \
 --target-os=linux \
 --arch=arm64 \
